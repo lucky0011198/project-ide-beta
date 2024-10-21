@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-mesh-pattern {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%"><defs><pattern id="meshPattern" width="20" height="20" patternUnits="userSpaceOnUse"><rect width="20" height="20" fill="none" stroke="rgb(248,248,248)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23meshPattern)" /></svg>');
+}
+
+#array-container {
+  padding-bottom: 0.5rem;
+}
+
+.pointer {
+  position: absolute;
+  bottom: 0;
+  width: 2.5rem;
+  height: 0.5rem;
+  background-color: rgb(211, 211, 211);
+  transition: transform 0.5s ease-in-out;
+}
